@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    text-align: center
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+
+}
+.tr1{
+    color:white;
+    background-color: blue;
+}
+.tr2 {
+    background-color: rgb(234, 232, 232);
+}
+.tr4 {
+    background-color: rgb(234, 232, 232);
+}
+
+        
