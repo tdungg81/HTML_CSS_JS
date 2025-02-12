@@ -1,0 +1,27 @@
+.dk{
+    text-align: center;
+}
+
+.div1 {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(182, 177, 177);
+
+}
+
+.button{
+    background-color: dodgerblue;
+    color:white;
+    margin: 10px;
+
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.div2{
+    padding: 15%;
+}
