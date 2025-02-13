@@ -1,0 +1,36 @@
+.background{
+    background-color:#EAEAEA;
+    width: 500px;
+    height: 300px;
+    
+}
+h1{
+    margin-left: 10px;
+    color:#231751;
+}
+img{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+span{
+    margin-left: 3px;
+    color:#231751;
+    display: inline-block;
+    
+}
+.bt1{
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #BC2229;
+    height: 50px;
+    border: 0;
+    color: white;
+}
+.bt2 {
+    border: 1;
+    border-radius: 8px;
+    background-color: #EAEAEA;
+    height: 49px;
+    margin-left: 20px;
+}
