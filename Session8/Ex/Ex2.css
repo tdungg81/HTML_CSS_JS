@@ -1,0 +1,28 @@
+.container {
+    background-color: #50435f;
+    width: 400px;
+    padding: 10px;
+}
+
+textarea {
+    background-color: #50435f;
+}
+
+input {
+    background-color: #50435f;
+}
+
+td {
+    padding-right: 12px;
+}
+
+.container button {
+    top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border-radius: none;
+    padding: 5px;
+    height: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
