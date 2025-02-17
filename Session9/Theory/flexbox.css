@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px auto;
+}
+.parent{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.parent .child{
+    width: 100px;
+    height: 100px;
+
+}
+.parent .child:nth-of-type(1){
+    background-color:aliceblue;
+}
+.parent .child:nth-of-type(2){
+    background-color:blueviolet;
+}
+.parent .child:nth-of-type(3){
+    background-color:chocolate;
+}
+.parent .child:nth-of-type(4){
+    background-color:darkcyan;
+}
+.parent .child:nth-of-type(5){
+    background-color: palegreen;
+}   
