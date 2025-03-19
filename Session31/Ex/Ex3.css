@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+.adjust{
+    display: flex;
+}
+.green-mode{
+    width: 110px;
+    height: 110px;
+    background-color: green;
+}
+.red-mode{
+    width: 110px;
+    height: 110px;
+    background-color: red;
+}
+.purple-mode{
+    width: 110px;
+    height: 110px;
+    background-color: purple;
+}
