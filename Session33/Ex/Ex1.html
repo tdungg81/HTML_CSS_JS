@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+        }
+        .myInput{
+            width: 300px;
+            height: 30px;
+        }
+        i{
+            position: absolute;
+            left: 290px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input class="myInput" type="password" placeholder="Password" id="input"/>
+        <i id="eye" class="fa-solid fa-eye" onclick="togglePasswordVisibility()"></i>
+    </div>
+    <script>
+        let inputElement = document.getElementById("input");
+        let eyeElement = document.getElementById("eye");
+
+        function togglePasswordVisibility() {
+            if (inputElement.type === "password") {
+                inputElement.type = "text";
+                eyeElement.classList.remove("fa-eye");
+                eyeElement.classList.add("fa-eye-slash");
+            } else {
+                inputElement.type = "password";
+                eyeElement.classList.remove("fa-eye-slash");
+                eyeElement.classList.add("fa-eye");
+            }
+        }
+    </script>
+</body>
+</html>

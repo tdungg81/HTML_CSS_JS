@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng Thời tiết</title>
+    <link rel="stylesheet" href="Ex6.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Ứng dụng Thời tiết</h1>
+        <select id="city-select" onchange="updateWeather()">
+            <option value="Ho Chi Minh">Hồ Chí Minh</option>
+            <option value="Da Nang">Đà Nẵng</option>
+            <option value="Ha Noi">Hà Nội</option>
+        </select>
+        <div id="weather-info">
+            <h2 id="location">Hồ Chí Minh</h2>
+            <p id="temperature">32°C</p>
+            <p id="condition">Nắng</p>
+            <p id="humidity">Độ ẩm: 75%</p>
+            <p id="windSpeed">Tốc độ gió: 7 km/h</p>
+        </div>
+    </div>
+    <script src="Ex6.js"></script>
+</body>
+</html>

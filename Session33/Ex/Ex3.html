@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Ex3.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Lọc sản phẩm theo danh mục</h2>
+        <select id="categorySelect">
+            <option value="all">Tất cả danh mục</option>
+            <option value="Đồ ăn">Đồ ăn</option>
+            <option value="Nước">Nước</option>
+            <option value="Dụng cụ">Dụng cụ</option>
+        </select>
+        <button onclick="filterProducts()">Lọc</button>
+        <div class="product-list" id="productList"></div>
+    </div>
+    <script src="./Ex3.js"></script>
+</body>
+</html>
